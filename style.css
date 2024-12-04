@@ -35,7 +35,7 @@ img {
 .cat {
     position: fixed;
     left: 110px;
-    bottom: 170px;
+    bottom: 150px;
     height: 150px;
     width: 130px;
 }
@@ -43,7 +43,7 @@ img {
 .panda {
     position: fixed;
     left: 255px;
-    bottom: 170px;
+    bottom: 150px;
     height: 150px;
     width: 130px;
 }
