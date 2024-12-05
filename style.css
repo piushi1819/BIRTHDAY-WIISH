@@ -1,5 +1,5 @@
 body {
-    height: 96vh;
+    height: 98vh;
     background-image: url('background.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,16 +11,17 @@ img {
 
 .star {
     position: relative;
-    top: 30px;
-    height: 100px;
-    width: 100px;
+    top: 13Px;
+    height: 150px;
+    width: 130px;
+    left: 12px;
 }
 
 .ballon {
     position: fixed;
     height: 150px;
     width: 130px;
-    top: 30px;
+    top: 20px;
     right: 20px;
 }
 
@@ -28,24 +29,24 @@ img {
     position: fixed;
     height: 25px;
     width: 120px;
-    bottom: 100px;
-    right: 190px;
+    bottom: 20px;
+    right: 180px;
 }
 
 .cat {
     position: fixed;
-    left: 110px;
-    bottom: 150px;
-    height: 150px;
-    width: 130px;
+    left: 120px;
+    bottom: 100Px;
+    height: 130px;
+    width: 110px;
 }
 
 .panda {
     position: fixed;
     left: 255px;
-    bottom: 150px;
-    height: 150px;
-    width: 130px;
+    bottom: 100px;
+    height: 135px;
+    width: 112px;
 }
 
 .container {
@@ -57,6 +58,8 @@ img {
 
 .birthdayCard {
     position: relative;
+    top: -50px;
+    right: 10px;
     width: 250px;
     height: 350px;
     cursor: pointer;
@@ -103,7 +106,8 @@ img {
 }
 
 .happy,
-.toyou {
+.toyou,
+.love {
     position: relative;
     font-family: didot;
     text-align: center;
@@ -112,11 +116,11 @@ img {
 }
 
 .happy {
-    top: 220px;
+    top: 217px;
 }
 
 .toyou {
-    top: 150px;
+    top: 144px;
 }
 
 .bday {
@@ -124,7 +128,15 @@ img {
     font-family: arial;
     font-size: 35px;
     text-align: center;
-    top: 185px;
+    top: 182px;
+}
+
+.love {
+    position: relative;
+    font-family: arial;
+    font-size: 25px;
+    text-align: center;
+    top: 107px;
 }
 
 .wrap-deco {
@@ -203,8 +215,8 @@ img {
     width: 130px;
     height: 5px;
     background-color: #00bbf9;
-    left: 60px;
-    top: 213px;
+    left: 70px;
+    top: 215px;
 }
 
 .cake {
